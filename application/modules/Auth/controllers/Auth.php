@@ -35,10 +35,10 @@ class Auth extends CI_Controller {
 			$sess_data['id_user'] = $hasil->row()->id_user;
 			$sess_data['nama_user'] = $hasil->row()->nama_user;
 			$sess_data['username'] = $hasil->row()->username;
-			$sess_data['role'] = $role;
+			
 			$this->session->set_userdata($sess_data);
 			
-			$datas = ['success' => true, 'role' => $role];
+			$datas = ['success' => true];
 		}
 		else {
 			$datas = ['success' => false];
