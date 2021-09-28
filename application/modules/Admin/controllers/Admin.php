@@ -11,7 +11,7 @@ class Admin extends CI_Controller {
 		$this->load->helper('encrypt');
 		$this->sms = $this->load->database('sms', TRUE);
 
-		if ($this->session->userdata('role') != 'admin') {
+		if ($this->session->userdata('role') != '') {
 			redirect('Auth');
 		}
 
