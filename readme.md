@@ -1,6 +1,5 @@
 Aplikasi khusus untuk pendataan lampu penerangan jalan umum (LPJU) oleh Dishub Kab. Magelang
 <br />
-(lpju.magelangkab.go.id)
 <br />
 Create using CodeIgniter 3
 
